@@ -14,11 +14,3 @@ if [ -d $HOME/dotfiles/bashrc.d ]; then
 		source $file
 	done
 fi
-
-# rc is for all shells
-
-if [ -d $HOME/dotfiles/rc.d ]; then
-	for file in $HOME/dotfiles/rc.d/*.sh; do
-		source $file
-	done
-fi

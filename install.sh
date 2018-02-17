@@ -9,7 +9,7 @@ dir=~/dotfiles         # the dotfiles directory
 olddir=~/dotfiles_old  # backup directory for old dotfiles
 
 ## Update this!
-files="bashrc vimrc"   # list of files/folders to symlink
+files="bashrc vimrc" ##list of files/folders to symlink
 
 ### 
 
