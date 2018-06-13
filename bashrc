@@ -14,3 +14,4 @@ if [ -d $HOME/dotfiles/bashrc.d ]; then
 		source $file
 	done
 fi
+

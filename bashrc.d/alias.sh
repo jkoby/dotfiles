@@ -36,4 +36,4 @@ alias spslapps="cd $SPLUNK_HOME/etc/slave-apps"
 alias spshapps="cd $SPLUNK_HOME/etc/shcluster/apps"
 alias spesl="cd $SPLUNK_HOME/etc/system/local"
 alias spvls="cd $SPLUNK_HOME/var/log/splunk"
-alias spvlsd="less $SPLUNK_HOME/var/log/splunk/splunkd.log”
+alias spvlsd="less $SPLUNK_HOME/var/log/splunk/splunkd.log"
