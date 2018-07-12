@@ -5,11 +5,11 @@
 
 ### Vars
 
-dir=~/dotfiles         # the dotfiles directory
-olddir=~/dotfiles_old  # backup directory for old dotfiles
+dir=dotfiles         # the dotfiles directory
+olddir=dotfiles_old  # backup directory for old dotfiles
 
 ## Update this!
-files="bashrc vimrc tmux.conf" ##list of files/folders to symlink
+files="bashrc tmux.conf" ##list of files/folders to symlink
 
 ### 
 
@@ -18,7 +18,7 @@ cd $dir
 
 for file in $files; do
 	mv ~./.$file ~/$olddir/
-        ln -s $dir/$file ~/.$file
+        ln -s ~/$dir/$file ~/.$file
         echo " .$file moved to $olddir and symlink generated to repo version" 
 done
 
